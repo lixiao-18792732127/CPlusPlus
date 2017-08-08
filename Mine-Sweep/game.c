@@ -132,35 +132,3 @@ int Game(char mine[rows][cols],char show[rows][cols])
 	Sweep(mine,show);
 	return 0;
 }
-
-
-
-////初始化显示雷的个数的雷阵
-//int show_mine(char *show[rows][cols])
-//{
-//
-//	}
-//	return 0;
-//}
-////初始化打印雷阵
-//int print_mine(char mine[rows][cols])
-//{
-//	int i = 0;
-//	int j = 0;
-//	for (i = 0; i < rows - 1; i++)
-//	{
-//		for (j = 0; j < cols - 1; j++)
-//		{
-//			mine[i][j] = '*';
-//		}
-//	}
-//	return 0;
-//}
-
-//初始化扫雷界面
-//void init_mine(char mine[rows][cols], char show[rows][cols]) 
-//{
-//	memset(mine, '0', rows*cols*sizeof(char));
-//	memset(show, '*', rows*cols*sizeof(char));
-//	set_mine(mine);
-//}
