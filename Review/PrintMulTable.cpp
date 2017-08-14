@@ -5,7 +5,7 @@ int main()
 {
 	int i = 0;
 	int j = 0;
-	int n;
+	int n = 0;
 	int num = 1;
 	printf("请输入口诀的行列->\n");
 	scanf("%d", &n);
