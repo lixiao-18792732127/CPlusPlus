@@ -18,12 +18,12 @@ int isleap(int year)
 	if((year%4==0&&year%100!=0)||year%400==0)
 	{
 		return 1;
-		cout<<"改年是闰年"<<endl;
+		cout<<"该年是闰年"<<endl;
 	}
 	else
 	{
 		return 0;
-		cout<<"改年不是闰年"<<endl;
+		cout<<"该年不是闰年"<<endl;
 	}
 }
 
