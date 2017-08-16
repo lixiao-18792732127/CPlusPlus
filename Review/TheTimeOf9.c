@@ -17,7 +17,7 @@ int main()
 			num++;
 		}
 	}
-	printf("1-100以内的数字出现9的次数为：%d次\n", num);
+	printf("1-100以内的数字出现9的次数为：%d\n", num);
 	system("pause");
 	return 0;
 }
